@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <link rel="stylesheet" href="./css/dark.css" type="text/css">
     <script src="https://kit.fontawesome.com/d64ef9df2c.js" crossorigin="anonymous"></script>
     <title>M1S06 - Exercicios</title>
 </head>
@@ -18,7 +19,7 @@
                 <li><a href="#curiosidades">Curiosidades</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
-                <li><a>Mudar Tema</a></li>
+                <li><a onclick="trocarTema()">Mudar Tema</a></li>
             </ul>
         </nav>
     </header>
@@ -106,6 +107,8 @@
             </div>
         </div>
     </section>
+
+    <button onclick="topFunction()" id="botaoTopo"><i class="fa-solid fa-arrow-up"></i></button>
 
     <footer class="footer">
         <p> &copy; Desenvolvido por André Luiz</p>

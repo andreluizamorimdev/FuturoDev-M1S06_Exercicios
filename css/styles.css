@@ -272,6 +272,26 @@ body {
     transition: .5s ease-in-out;
 }
 
+#botaoTopo {
+    display: none;
+    position: sticky;
+    bottom: 3rem;
+    left: 110rem;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #6C63FF;
+    color: #fff;
+    cursor: pointer;
+    padding: 1.5rem;
+    border-radius: 50%;
+}
+
+#botaoTopo:hover {
+    background-color: #443afc;
+}
+
 
 .footer {
     width: 100%;
